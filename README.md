@@ -1,6 +1,8 @@
 # Docling-Serve Jetson GPU Docker
 
-A hacker-first repository for building and running [docling-serve](https://github.com/docling-project/docling-serve) with full GPU acceleration on NVIDIA Jetson devices (Orin Nano, Orin NX, Xavier, etc.).
+A repository for building and running [docling-serve](https://github.com/docling-project/docling-serve) with full GPU acceleration on NVIDIA Jetson devices (Orin Nano, Orin NX, Xavier, etc.).  
+
+The orin nano has an 8GB GPU memory with CUDA built in.  Perfect for docling testing to offload your host system.
 
 ## Why build locally?
 Standard Docling images are built for x86_64. Building directly on your Jetson ensures:
